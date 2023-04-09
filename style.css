@@ -159,10 +159,12 @@ p {
 .score {
   position: relative;
   left: 50px;
+  font-weight: 500;
 }
 .s-score {
   position: relative;
   left: 65px;
+  font-weight: 500;
 }
 .icon-img {
   position: absolute;
