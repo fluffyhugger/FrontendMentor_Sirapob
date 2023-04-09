@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="box">
+    <div id="num1">
+      <div class="nested-box">
+        <p class="result" style="font-size: 20px;"> Your Result </p>
+        <div class="circle">
+          <h1 class="get-score">76</h1>
+          <div class="overall">of 100</div>
+        </div>
+        <div class="topic">Great</div>
+        <div class="result">You scored higher than 65% of the people who have taken these tests.</div>
+      </div>
+    </div>
+    <div id="num2">
+      <p class="summary">Summary</p>
+      <div class="text-box" style="background-color: hsl(0, 100%, 67%, 0.3);">
+        <img src="assets/images/icon-reaction.svg" class="icon-img">
+        <span class="skill" style="color:  hsl(0, 100%, 67%);">Reaction</span>
+        <span class="score">80 / 100</span>
+      </div>
+      <div class="text-box" style="background-color:hsl(39, 100%, 56%,0.2)">
+        <img src="assets/images/icon-memory.svg" class="icon-img">
+        <span class="skill" style="color:hsl(39, 50%, 56%)">Memory</span>
+        <span class="score">92 / 100</span>
+      </div>
+      <div class="text-box" style="background-color: hsl(166, 100%, 37%,0.2)">
+        <img src="assets/images/icon-verbal.svg" class="icon-img">
+        <span class="skill" style="color:hsl(166, 60%, 37%)">Verbal</span>
+        <span class="s-score">61 / 100</span>
+      </div>
+      <div class="text-box" style="background-color: hsl(234, 85%, 45%,0.2)">
+        <img src="assets/images/icon-visual.svg" class="icon-img">
+        <span class="skill" style="color:hsl(234, 85%, 45%)">Visual</span>
+        <span class="s-score">72 / 100</span>
+      </div>
+      <button class="button-continue"> Continue </button>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Sirapob Wuthithein</a>.
+    <!-- Using positioning technique -->
+  </div>
+</body>
+
+</html>
